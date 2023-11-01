@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.exp1{
+    border: 40px solid rgb(71, 71, 71);
+    padding: 30px;
+    width: 330px;
+    margin: 0px
+}
+.exp2{
+    border: 40px solid rgb(71, 71, 71);
+    width: 330px;
+    padding: 0px;
+    margin: 5px
+}
+.exp3{
+    box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    border: 40px solid rgb(71, 71, 71);
+    width: 330px;
+    padding: 0px;
+    margin: 5px
+}
+.exp4{
+    box-sizing: content-box; 
+    -moz-box-sizing: content-box; 
+    -webkit-box-sizing: content-box;
+    border: 40px solid rgb(71, 71, 71);
+    width: 330px;
+    padding: 0px;
+    margin: 5px
+}
+.exp5{
+    display: block;
+    border: 40px solid rgb(71, 71, 71);
+    padding: 30px;
+    width: 330px;
+    margin: 0 auto
+}
+.exp6{
+    display: block;
+    border: 40px solid rgb(71, 71, 71);
+    padding: 10px 30px 20px;
+    width: 330px;
+    margin: 0
+}
+.exp7{
+    display: block;
+    border: 40px solid rgb(71, 71, 71);
+    padding: 30px 70px;
+    width: 330px;
+    margin: 0
+}
+.exp8{
+    border: 2px solid rgb(71, 71, 71);
+    padding: 10px;
+    background-color: gray;
+}
+.exp9{
+    border: 2px solid rgb(71, 71, 71);
+    padding: 10px;
+    margin: 20px;
+    background-color: gray;
+}
+.exp10{
+    display: inline-block;
+    border: 2px solid rgb(71, 71, 71);
+    padding: 10px;
+    background-color: gray;
+}
+footer, header, main, aside, section, nav{
+    display: block;
+}
+body{
+    text-align: center;
+    clear: both;
+}
+.maincls{
+    size: 980px;
+    margin: 15px, auto;
+    text-align: left;
+}
+main{
+    text-align: left;
+}
+header{
+	text-align: center;
+    padding: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: bisque;
+}
+nav{
+    padding: 10px;
+    background-color: antiquewhite;
+}
+li{
+    display: inline;
+    float: left;
+}
+section{
+    width: 660px;
+    margin: 20px; 
+    /*700px*/
+}
+aside{
+    width: 220px;
+    padding: 20px;
+    margin: 15px, 0px;
+    float: left;
+    /*260*/
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    clear: both;
+}
